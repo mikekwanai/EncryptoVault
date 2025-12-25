@@ -1,0 +1,51 @@
+.header {
+  background: linear-gradient(135deg, #0b1d2c 0%, #0f2e3d 35%, #0c3f51 100%);
+  color: #e9f2f6;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.header-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.brand {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.brand-overline {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7cd4ff;
+}
+
+.brand h1 {
+  margin: 0.1rem 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #f5fcff;
+}
+
+.brand-subtitle {
+  margin: 0;
+  color: #c7e4f0;
+  font-size: 0.95rem;
+}
+
+.logo-dot {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: radial-gradient(circle at 30% 30%, #7cd4ff, #1bb9d9 50%, #0a2532 100%);
+  box-shadow: 0 8px 28px rgba(12, 141, 181, 0.35);
+}
