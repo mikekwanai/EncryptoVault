@@ -1,0 +1,8 @@
+#root {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at 10% 20%, rgba(124, 212, 255, 0.08), transparent 25%),
+    radial-gradient(circle at 80% 0%, rgba(255, 255, 255, 0.05), transparent 30%),
+    #060e16;
+  min-height: 100vh;
+}
